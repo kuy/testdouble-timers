@@ -1,3 +1,6 @@
+[![NPM Package][npm_img]][npm_site]
+[![Dependency Status][david_img]][david_site]
+
 # testdouble-timers
 
 Fake timers API for [testdouble.js](https://github.com/testdouble/testdouble.js).
@@ -66,10 +69,15 @@ Restores replaced methods.
 
 The API and arguments handling are written based on [Sinon.JS](http://sinonjs.org/).
 
+## License
+
+MIT
+
 ## Author
 
 Yuki Kodama / [@kuy](https://twitter.com/kuy)
 
-## License
-
-MIT
+[npm_img]: https://img.shields.io/npm/v/testdouble-timers.svg
+[npm_site]: https://www.npmjs.org/package/testdouble-timers
+[david_img]: https://img.shields.io/david/kuy/testdouble-timers.svg
+[david_site]: https://david-dm.org/kuy/testdouble-timers
