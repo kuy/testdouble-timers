@@ -4,7 +4,7 @@ Fake timers API for [testdouble.js](https://github.com/testdouble/testdouble.js)
 
 ## Usage
 
-```
+```es6
 import td from 'testdouble';
 import timers from 'testdouble-timers';
 
