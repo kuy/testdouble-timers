@@ -5,6 +5,12 @@
 
 Fake timers API for [testdouble.js](https://github.com/testdouble/testdouble.js).
 
+## Install
+
+```
+npm install --save-dev testdouble-timers
+```
+
 ## Usage
 
 ```es6
