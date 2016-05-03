@@ -5,10 +5,13 @@ function use(testdouble) {
   td.timers = function () {
     let now;
     const methods = [...arguments];
-    if (typeof methods[0] === 'string') {
+    if (typeof methods[0] === 'undefined' || typeof methods[0] === 'string') {
       now = 0;
     } else {
       now = methods.shift();
+      if (typeof now.getTime === 'function') {
+        now = now.getTime();
+      }
     }
 
     const clock = lolex.install(now || 0, methods);

@@ -71,6 +71,14 @@ Forwards the clock `duration` milliseconds.
 
 Restores replaced methods.
 
+## Development
+
+### Run test
+
+```
+npm test
+```
+
 ## Acknowledgment
 
 The API and arguments handling are written based on [Sinon.JS](http://sinonjs.org/).
