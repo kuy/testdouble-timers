@@ -1,6 +1,6 @@
 {
   "name": "testdouble-timers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fake timers API for testdouble.js.",
   "keywords": [
     "tdd",
