@@ -21,6 +21,11 @@ import timers from 'testdouble-timers';
 timers.use(td);
 
 describe('important scenario', () => {
+  afterEach(() => {
+    // Recommended way to restore replaced methods.
+    td.reset();
+  });
+
   it('does something later', () => {
     // Replace global timers
     const clock = td.timers();
@@ -34,8 +39,7 @@ describe('important scenario', () => {
 
     assert(obj.result === 'hello');
 
-    // Restore timers
-    clock.restore();
+    // No need to call clock.restore() here
   });
 });
 ```
@@ -69,7 +73,10 @@ Forwards the clock `duration` milliseconds.
 
 ### clock.restore()
 
-Restores replaced methods.
+Restores replaced methods manually.
+
+**NOTE**: In most cases, you don't need to use this method.
+Please use [td.reset()](https://github.com/testdouble/testdouble.js/blob/master/docs/1-installation.md#resetting-state-between-test-runs) like [the usage](https://github.com/kuy/testdouble-timers#usage) as written above.
 
 ## Development
 
