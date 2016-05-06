@@ -15,7 +15,13 @@ function use(testdouble) {
     }
 
     const clock = lolex.install(now || 0, methods);
+
+    // For automatic restoring by td.reset()
+    td.reset.onNextReset(clock.uninstall);
+
+    // For manual restoring
     clock.restore = clock.uninstall;
+
     return clock;
   };
 }
