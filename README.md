@@ -58,7 +58,7 @@ Creates a new clock and replaces [all methods](#method-names) if you call withou
 `now` should be `Date` object or milliseconds since UNIX epoch.
 `method1`, `method2`, ... are method names you want to replace. Here is a list of method names you can specify.
 
-#### Method names
+#### List of available method names
 
 + `setTimeout`
 + `clearTimeout`
@@ -90,6 +90,10 @@ npm test
 ## Acknowledgment
 
 The API and arguments handling are written based on [Sinon.JS](http://sinonjs.org/).
+
+## Changelog
+
+See the [Releases](https://github.com/kuy/testdouble-timers/releases) page on GitHub.
 
 ## License
 
