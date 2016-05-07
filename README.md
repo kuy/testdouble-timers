@@ -1,4 +1,5 @@
 [![NPM Package][npm_img]][npm_site]
+[![Travis][ci_img]][ci_site]
 [![Dependency Status][david_img]][david_site]
 
 # testdouble-timers
@@ -100,5 +101,7 @@ Yuki Kodama / [@kuy](https://twitter.com/kuy)
 
 [npm_img]: https://img.shields.io/npm/v/testdouble-timers.svg
 [npm_site]: https://www.npmjs.org/package/testdouble-timers
+[ci_img]: https://img.shields.io/travis/kuy/testdouble-timers/master.svg?style=flat-square
+[ci_site]: https://travis-ci.org/kuy/testdouble-timers
 [david_img]: https://img.shields.io/david/kuy/testdouble-timers.svg
 [david_site]: https://david-dm.org/kuy/testdouble-timers
