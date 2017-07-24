@@ -32,7 +32,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "testdouble": "^1.4.2"
+    "testdouble": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
@@ -45,7 +45,7 @@
     "mocha": "^2.4.5",
     "power-assert": "^1.4.0",
     "rimraf": "^2.5.2",
-    "testdouble": "^1.4.2"
+    "testdouble": "^3.0.0"
   },
   "dependencies": {
     "lolex": "^1.4.0"
